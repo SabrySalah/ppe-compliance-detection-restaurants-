@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Models & weights
+*.pt
+
+# Media files
+*.mp4
+*.mkv
+*.png
+
+# Training outputs
+runs/
+violations/
+*.log
+
+# Dataset (IMPORTANT)
+dataset/
+data/
+ppe kitchen dataset/
+*.zip
+
+# VS Code
+.vscode/

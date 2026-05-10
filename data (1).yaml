@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['gloves', 'harinet', 'mask', 'no_gloves', 'no_hat-hairnet', 'no_mask']
+
+roboflow:
+  workspace: workspace1-ijbe2
+  project: kitchenattiredetect
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workspace1-ijbe2/kitchenattiredetect/dataset/2
